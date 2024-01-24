@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int choise;
 	double num1, num2, result;
-	char op;
+	//char op;
 
 	do {
 		cout << "1. Сложение\n";
@@ -105,10 +105,12 @@ int main()
         default:
             cout << "Ошибка: неверный выбор операции\n";
         }
-    } while (choice !=9) ;
+    } while (choise !=6) ;
 
-    return 0;
+   // return 0;
 }
+
+  
 
 
 		
